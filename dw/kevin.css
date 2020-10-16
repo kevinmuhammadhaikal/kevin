@@ -1,0 +1,115 @@
+<head>
+  <link rel="shortcut icon" href="gus.ico" tittle="wow">
+  <title>Membuat Pendaftaran tournamen among us</title>
+  <style>
+    body {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style> 
+<center>
+  <font size ="5"><h1>Membuat pendaftaran among us</h1></font></font>
+  <hr width="100%" align="center">
+</center>
+</head>
+<form action="/Buat pendaftaran " method="post">
+  <body>
+      <h1>Buat pendaftran among us</h1>
+      <font color="red"><p>Silahkan Isi Data Dibawah Ini! </p></font>	
+  </body>
+  <p>
+    <label>Nama Lengkap</label><br>
+    <input type="text" name="Nama Lengkap" placeholder="Nama asli">
+  </p>
+  <p>
+    <label>Jenis Kelamin</label><br>
+    <label>
+      <input type="radio" name="title" value="Pria">
+      Pria
+    </label>
+    <label>
+      <input type="radio" name="title" value="Wanita">
+      Wanita
+    </label>
+  </p>
+  <p>
+      <label>Tempat Lahir</label><br>
+      <input type="text" name="Tempat Lahir" placeholder="tempat">
+      <label for="birthday">Tanggal Lahir:</label>
+      <input type="date" id="birthday" name="birthday">
+      <input type="submit" value="Submit">
+  </p>
+  <p>
+      <label>Alamat</label><br>
+      <input style="width:300px;"type="text" name="Alamat" placeholder="jalan kota baru jambi....">
+      <label for="Kecamatan">Kecamatan</label>
+      <input type="text" name="Kecamatan" id="kota" class="form" placeholder="cth:jambi">
+      <label for="Kota">Kota</label>
+      <input type="text" name="Kecamatan" id="Kota" class="form" placeholder="cth:jambi">
+      <label for="kode_pos">Kode Pos</label>
+      <input type="number" name="kode_pos" id="kode_pos" class="form" placeholder="cth:12538">
+  </p>
+  <p>
+    <label>Email</label><br>
+    <input type="email" name="email" required placeholder="cth: kvinhai@gmail.com"> 
+  </p>
+  <p>
+    <label>Nomor Telpon</label><br>
+    <input type="tel" name="Phone" placeholder="Maksimal 12 angka">
+  </p>
+  <p>
+    <h2>Masukkan Nickname</h2>
+  </p>
+  <p>
+    <label>Username</label><br>
+    <input type="text" name="Username" placeholder="Minimal 5 huruf dan terdapat angka">
+  </p>
+  <p>
+    <label>Password</label><br>
+    <input type="password" name="password" placeholder="Password">
+  </p>
+  <p>
+    <label>Verifikasi Password</label><br>
+    <input type="password" name="Verifikasi Password" placeholder="Verifikasi Password">
+  </p>
+  <p>
+    <label>Pin</label><br>
+    <input type="text" name="Pin" placeholder="Harus 6 angka">
+  </p>
+  <p>
+    <label>Verifikasi Pin</label><br>
+    <input type="text" name="Verifikasi Pin" placeholder="Harus 6 angka">
+  </p>
+  <p>
+    <label>Negara</label><br>
+    <input type="text" name="Negara" placeholder="cth:Indonesia">
+  </p>
+  <p>
+    <label>Region(Server)</label><br>
+    <select>
+      <option>Europa</option>
+      <option>USA</option>
+      <option>Asia</option>
+    </select>
+  </p>
+  <p>
+    <fieldset>
+      <p>
+          <label>Alasan mengikuti :</label>
+          <textarea required placeholder=" " cols="50" rows="5"></textarea>
+      </p>
+    <label>
+      <input type="checkbox" value="terms">
+      Saya setuju dengan ketentuan yang ada <a href="/terms">terms and conditions</a>
+    </label>
+  </p>
+  <p>
+    <label>Captcha</label>
+    <input type="text" name="Captcha" placeholder="Code">
+  </p>
+  <p>
+    <button>Sign up</button>
+    <button type="reset">Ulang</button>
+  </p>
+</form>
